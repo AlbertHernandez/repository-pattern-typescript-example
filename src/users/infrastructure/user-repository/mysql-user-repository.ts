@@ -1,10 +1,10 @@
-import { User } from "./user";
+import { User } from "../../domain/user";
+import { UserRepository } from "../../domain/user-repository";
 import userDatabase from "./user-database.json";
-import { UserRepository } from "./user-repository";
 
-export class MongoUserRepository implements UserRepository {
+export class MySQLUserRepository implements UserRepository {
   async getById(id: string): Promise<User | null> {
-    console.log("Using Mongo!");
+    console.log("Using MySQL!");
 
     const rawUser = userDatabase.find((user) => user.id === id);
 

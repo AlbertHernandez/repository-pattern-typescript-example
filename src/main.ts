@@ -6,7 +6,7 @@ import express from "express";
 
 import { config } from "./config";
 import { healthRouter } from "./health/health-router";
-import { userRouter } from "./users/user-router";
+import { userRouter } from "./users/infrastructure/http/user-router";
 
 function boostrap() {
   const app = express();
