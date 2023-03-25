@@ -1,7 +1,7 @@
 {
-  "name": "express-typescript-service-skeleton",
+  "name": "repository-pattern-typescript-example",
   "version": "1.0.0",
-  "description": "Skeleton for new typescript services based on hexagonal architecture",
+  "description": "Example of how to implement the repository pattern using Typescript",
   "main": "src/index.js",
   "scripts": {
     "start": "node dist/src/main.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlbertHernandez/express-typescript-service-skeleton.git"
+    "url": "git+https://github.com/AlbertHernandez/repository-pattern-typescript-example.git"
   },
   "keywords": [
     "typescript",
@@ -31,9 +31,9 @@
     "npm": ">=9.3.0"
   },
   "bugs": {
-    "url": "https://github.com/AlbertHernandez/express-typescript-service-skeleton/issues"
+    "url": "https://github.com/AlbertHernandez/repository-pattern-typescript-example/issues"
   },
-  "homepage": "https://github.com/AlbertHernandez/express-typescript-service-skeleton#readme",
+  "homepage": "https://github.com/AlbertHernandez/repository-pattern-typescript-example#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
